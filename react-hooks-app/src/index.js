@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Effect2 from './Effect2';
+import App from './Custom1';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Effect2 />,
+  <App />,
   document.getElementById('root')
 );
 
