@@ -1,0 +1,7 @@
+button,
+.button {
+	margin-bottom: 0 !important;
+	margin-right: .5rem;
+}
+
+body {margin:5;padding:5}
