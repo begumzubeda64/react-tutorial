@@ -8,7 +8,7 @@ import RootReducer from './reducers';
 import reportWebVitals from './reportWebVitals';
 
 const finalCreateStore = compose(
-	window.devToolsExtension ? window.devToolsExtension() : f => f
+	window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f
 )(createStore); //enable redux dev tool
 
 const store = finalCreateStore(RootReducer);
